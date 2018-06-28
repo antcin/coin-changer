@@ -36,4 +36,7 @@ describe('CoinChanger', function() {
     expect(coinChanger.returnChange(200)).to.eql(['£2'])
   });
 
+  it('returns £2, £2, £2, £1, 20p, 10p, 5p, 2p, 1p, for £7.38', function() {
+    expect(coinChanger.returnChange(738)).to.eql(['£2', "£2", "£2", "£1", "20p", "10p", "5p", "2p", "1p"])
+  });
 });
