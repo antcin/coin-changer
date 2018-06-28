@@ -1,0 +1,26 @@
+{
+  "name": "coin-changer",
+  "version": "1.0.0",
+  "description": "Coin Change Kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antcin/coin-changer.git"
+  },
+  "keywords": [
+    "kata",
+    "tdd",
+    "javascript",
+    "mocha",
+    "chai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antcin/coin-changer/issues"
+  },
+  "homepage": "https://github.com/antcin/coin-changer#readme"
+}
