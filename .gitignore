@@ -1,3 +1,2 @@
-git rm -r --cached node_modules
-git commit -m 'Remove the ignored directory node_modules'
-git push origin master
+node_modules
+.nyc_output
