@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/antcin/coin-changer/issues"
   },
-  "homepage": "https://github.com/antcin/coin-changer#readme"
+  "homepage": "https://github.com/antcin/coin-changer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
 }
