@@ -18,13 +18,9 @@ CoinChanger.prototype.returnChange = function(amount) {
 
   Object.keys(this.coins).reverse().forEach((coin) => {
     while (amountLeft > 0) {
-      console.log(amountLeft, 'before while');
       if(amountLeft >= coin){
-        console.log(amountLeft, 'amount left at the beginnning of loop');
         amountLeft = amountLeft - coin
-        console.log(amountLeft, ' amount left after taking coin away');
         change.push(this.coins[coin])
-        console.log(change, 'after pushing amount to change');
       } else {
         break;
       }
